@@ -1,11 +1,7 @@
-use nokhwa::{Camera, CameraFormat, CameraInfo, CaptureAPIBackend, NokhwaError};
+use nokhwa::{Camera, CameraFormat};
 
 fn main() {
     println!("Hello, world!");
-
-    // let dev = nokhwa::query_devices(CaptureAPIBackend::Auto);
-
-    // println!("{:?}", dev);
 
     let mut camera = Camera::new(
         0,
